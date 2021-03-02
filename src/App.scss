@@ -1,0 +1,43 @@
+.btn {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  font-size: 150px;
+  font-family: monospace;}
+
+.background {
+background-color:#deb887;
+ min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#counter {
+  font-family: monospace;
+  font-size:60px;
+}
+
+#incrementButton {
+  background-color:cadetblue;
+  @extend .btn;
+  &:hover{
+    background-color: lightcyan;
+  }
+
+}
+
+#decrementButton {
+background-color:salmon;
+  @extend .btn;
+  &:hover{
+    background-color: pink;
+}
+}
