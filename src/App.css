@@ -6,10 +6,18 @@
   font-family: monospace;
 }
 
+@media screen and (max-width: 415px) {
+  .btn, #incrementButton, #decrementButton {
+    width: 160px;
+    height: 160px;
+    font-size: 120px;
+  }
+}
+
 .background {
   background-color: #deb887;
-  min-height: 100%;
-  min-width: 1024px;
+  min-height: 100vh;
+  min-width: 100vw;
   width: 100%;
   height: auto;
   position: fixed;
