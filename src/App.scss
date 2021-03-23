@@ -1,4 +1,4 @@
-$phone: 415px;
+$phone: 400px;
 
 body{
   margin: 0;
@@ -12,9 +12,9 @@ body{
   font-size: 150px;
   font-family: monospace;
   @media screen and (max-width: $phone){
-    width: 140px;
-  height: 140px;
-font-size: 110px;}
+    width: 100px;
+  height: 100px;
+font-size: 75px;}
   }
 
 .background {
@@ -30,6 +30,9 @@ background-color: #deb887;
 #counter {
   font-family: monospace;
   font-size:60px;
+  @media screen and (max-width: $phone){
+    font-size: 50px;
+  }
 }
 
 #incrementButton {
