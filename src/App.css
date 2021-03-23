@@ -14,14 +14,13 @@
   }
 }
 
-.background {
+body {
+  margin: 0;
+  padding: 0;
   background-color: #deb887;
-  min-height: 100vh;
-  min-width: 100vw;
-  width: 100%;
-  height: auto;
-  top: 0;
-  left: 0;
+  width: 100vw;
+  background-size: cover;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

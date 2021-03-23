@@ -11,20 +11,17 @@ $phone: 415px;
   height: 160px;
 font-size: 120px;}
   }
-
-.background {
-background-color:#deb887;
- min-height: 100vh;
-  min-width: 100vw;
-  width: 100%;
-  height: auto;
-  top: 0;
-  left: 0;
-   display: flex;
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #deb887;
+  width: 100vw;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  
 }
 
 #counter {
@@ -38,8 +35,6 @@ background-color:#deb887;
   &:hover{
     background-color: lightcyan;
   }
-  
-
 }
 
 #decrementButton {
